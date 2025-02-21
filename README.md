@@ -27,7 +27,8 @@ if you didn't do previously, extract the tar <BR>
 (tar xvf ct-ng-127REL-arm-arm-shortpath.tar)<BR>
 you should have the directory /m/opt/arm-unknown-linux-gnueabi<BR>
 <BR>
-now everything is ok. Just add the compiler binaries to the path editing .profile<BR> PATH=$PATH:/usr/local/bin/:/chroot/tmp/run/mountd/sda1/m/opt/arm-unknown-linux-gnueabi/bin/<BR>
-try the compiler typing gcc -v<BR>
-or<BR>
-`echo 'int main() { return 0; }' > main.c && gcc main.c -o test_program && ./test_program && echo "Compilation and execution successful!" || echo "An error occurred during compilation or execution." && rm main.c test_program`<BR>
+now everything is ok.<BR>
+Just add the compiler binaries to the path editing .profile<BR> PATH=$PATH:/usr/local/bin/:/chroot/tmp/run/mountd/sda1/m/opt/arm-unknown-linux-gnueabi/bin/<BR>
+you can test the compiler typing gcc -v<BR>
+or you can compile and run a test program<BR>
+`printf '#include <stdio.h>\n\nint main() { printf("Success\\n"); return 0; }' > main.c && gcc main.c && ./a.out && echo "OK" || echo "ERROR" && rm main.c`<BR>
