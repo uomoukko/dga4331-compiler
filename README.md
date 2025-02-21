@@ -22,9 +22,9 @@ you should have the directory /m/opt/arm-unknown-linux-gnueabi<BR>
 <BR>
 now mount the usb disk on the modem (remove noexec option)<BR>
 as /chroot/tmp/run/mountd/sda1 type ext4 (rw,relatime,data=ordered)<BR>
-go to directory /chroot/tmp/run/mountd/sda/m/opt<BR>
-cd to /chroot/tmp/run/mountd/sda/m/opt
-if you didn't do previously, extract the tar (tar xvf ct-ng-127REL-arm-arm-shortpath.tar)<BR>
+cd to /chroot/tmp/run/mountd/sda/m/opt<BR>
+if you didn't do previously, extract the tar <BR>
+(tar xvf ct-ng-127REL-arm-arm-shortpath.tar)<BR>
 you should have the directory /m/opt/arm-unknown-linux-gnueabi<BR>
 <BR>
 now everything is ok. Just add the compiler binaries to the path editing .profile<BR> PATH=$PATH:/usr/local/bin/:/chroot/tmp/run/mountd/sda1/m/opt/arm-unknown-linux-gnueabi/bin/<BR>
