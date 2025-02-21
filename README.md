@@ -1,5 +1,5 @@
 # dga4331-compiler
-c/c++ compiler v14.2.0 for libc 2.27 to be used with DGA4331
+c/c++ compiler for libc 2.27 to be used with DGA4331
 
 if you cannot de-xz a tar.xz file on the modem, because your
 tar is old and doesn't understand xz files, decompress it
@@ -9,7 +9,7 @@ on the tar.xz file and selecting Extract to yourfile.tar
 <BR>
 format an usb disk as ext4 filesystem<BR>
 If you have linux, sudo mkfs -t ext4 /dev/sda<BR>
-If you have windows, you can use the free versions of DiskGenius<BR>
+If you have windows, you can use the free versions of DiskGenius
 or MiniTool Partition Wizard<BR>
 <BR>
 mount the usb disk on a live-linux or windows-WSL-linux<BR>
