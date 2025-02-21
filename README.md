@@ -18,7 +18,7 @@ copy the ct-ng-127REL-arm-arm-shortpath.tar file on /m/opt<BR>
 optionally at this point you can also extract the tar<BR>
 (tar xvf ct-ng-127REL-arm-arm-shortpath.tar)<BR> or
 (tar xvaf ct-ng-127REL-arm-arm-shortpath.tar.xz)<BR>
-you should have the directory /m/opt/arm-unknown-linux-gnueabi
+you should have the directory /m/opt/arm-unknown-linux-gnueabi<BR>
 <BR>
 now mount the usb disk on the modem (remove noexec option)<BR>
 as /chroot/tmp/run/mountd/sda1 type ext4 (rw,relatime,data=ordered)<BR>
