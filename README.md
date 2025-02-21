@@ -1,5 +1,5 @@
-# dga4331-compiler
-c/c++ compiler for libc 2.27 to be used with DGA4331
+# arm dga4331-compiler
+c/c++ arm compiler for libc 2.27 to be used with DGA4331
 
 if you cannot de-xz a tar.xz file on the modem, because your
 tar is old and doesn't understand xz files, decompress it
