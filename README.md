@@ -24,7 +24,7 @@ now mount the usb disk on the modem. You will have to remove<BR>
 the noexec option for the ext4 mounted filesystem:<BR>
 edit /etc/config/mountd (make a copy) and change the 'noexec,errors=continue'<BR>
 to 'errors=continue' for all the filesystem you will use (ext2,ext3,ext4)<BR>
-as /chroot/tmp/run/mountd/sda1 type ext4 (rw,relatime,data=ordered)<BR>
+then /sda1 will be mounted as /chroot/tmp/run/mountd/sda1 type ext4 (rw,relatime,data=ordered)<BR>
 <BR>
 cd to /chroot/tmp/run/mountd/sda/m/opt<BR>
 if you didn't do previously, extract the tar <BR>
@@ -36,4 +36,4 @@ Just add the compiler binaries to the path editing .profile<BR> PATH=$PATH:/usr/
 you can test the compiler typing<BR>
 `gcc -v`<BR>
 or you can compile and run a test program<BR>
-`printf '#include <stdio.h>\n\nint main() { printf("Success\\n"); return 0; }' > main.c && gcc main.c && ./a.out && echo "OK" || echo "ERROR" && rm main.c`<BR>
+`printf '#include <stdio.h>\n\nint main() { printf("Hello, world\\n"); return 0; }' > main.c && gcc main.c && ./a.out && echo "OK" || echo "ERROR" && rm main.c`<BR>
