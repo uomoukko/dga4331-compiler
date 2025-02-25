@@ -1,15 +1,16 @@
 # arm dga4331-compiler
 c/c++ arm compiler for libc 2.27 to be used with DGA4331
 
-if you cannot de-xz a tar.xz file on the modem, because your
-tar is old and doesn't understand xz files, decompress it
-in WSL linux with xz -d ct-ng-127REL-arm-arm-shortpath.tar<BR>
-or in windows installing the 7-Zip utility, right-clicking
-on the tar.xz file and selecting Extract to yourfile.tar
+if you cannot de-xz a tar.xz file on the modem, because your<BR>
+tar is old and doesn't understand xz files, decompress it<BR>
+in an updated unix system, (for example Windows WSL linux)<BR>
+giving the command xz -d ct-ng-127REL-arm-arm-shortpath.tar.xz<BR>
+or in windows installing the 7-Zip utility, right-clicking<BR>
+on the tar.xz file and selecting Extract to yourfile.tar<BR>
 <BR>
-format an usb disk as ext4 filesystem<BR>
-If you have linux, sudo mkfs -t ext4 /dev/sda1<BR>
-If you have windows, you can use the free versions of DiskGenius
+Then you will have to format an usb disk as ext4 filesystem<BR>
+If you have a real unix/linux, sudo mkfs -t ext4 /dev/sda1<BR>
+If you have windows, you can use the free versions of DiskGenius<BR>
 or MiniTool Partition Wizard<BR>
 <BR>
 mount the usb disk on a live-linux or windows-WSL-linux<BR>
