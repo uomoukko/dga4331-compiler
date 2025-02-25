@@ -8,7 +8,7 @@ or in windows installing the 7-Zip utility, right-clicking
 on the tar.xz file and selecting Extract to yourfile.tar
 <BR>
 format an usb disk as ext4 filesystem<BR>
-If you have linux, sudo mkfs -t ext4 /dev/sda<BR>
+If you have linux, sudo mkfs -t ext4 /dev/sda1<BR>
 If you have windows, you can use the free versions of DiskGenius
 or MiniTool Partition Wizard<BR>
 <BR>
